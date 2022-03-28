@@ -1,0 +1,37 @@
+h1 {
+    color: red;
+}
+#hr_topo {
+    height:2px;
+    border-width:0;
+    color:red;
+    background-color:red
+}
+#hr_historia {
+    height:2px;
+    border-width:0;
+    color:green;
+    background-color:green
+}
+#hr_geografia{
+    height:2px;
+    border-width:0;
+    color:green;
+    background-color:green
+}
+#voltar_topo{
+    border: none;
+}
+img {
+    border: 1px solid red;
+}
+
+.sub_titulo{
+    color: green;
+}
+.h3_historia{
+    color: blue;
+}
+.h3_geografia {
+    color: blue;
+}
