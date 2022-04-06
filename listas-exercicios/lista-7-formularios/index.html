@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo Formulários</title>
+</head>
+
+<body>
+    <h1>Cadastro de clientes</h1>
+    <p style="color:red">Todos os campos são de preenchimento obrigatório</p>
+    <form action="">
+        <fieldset>
+            <legend><b>Dados Pessoais</b></legend>
+            <label for="txtNome"><b>Nome:</b></label>
+            <input type="text" id="txtNome" required placeholder="Insira seu nome completo">
+            <br>
+            <br>
+            <label for="calendar"><b>Data de Nascimento:</b></label>
+            <input type="date" id="calendar" required>
+            <br>
+            <br>
+            <label for="sexo"><b>Sexo:</b></label>
+            <input type="radio" name="sexo" id="sexo" required><label for="">Masculino</label>
+            <input type="radio" name="sexo"><label for="">Feminino</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Informações de contato</b></legend>
+            <label for="email"><b>E-mail:</b></label>
+            <input type="email" required id="email">
+            <br>
+            <br>
+            <label for="cel"><b>Telefone celular:</b></label>
+            <input type="number" required id="cel" maxlength="9" placeholder="Apenas números (máx: 9)">
+            <br>
+            <br>
+            <label for="site"><b>Website pessoal:</b></label>
+            <input type="url" required id="site">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Localização</b></legend>
+            <label for="endereco"><b>Endereço:</b></label>
+            <input type="text" required id="endereco">
+            <br>
+            <br>
+            <label for="numero"><b>Número:</b></label>
+            <input type="number" min="1" max="9999" required id="numero" placeholder="Valor entre 1 e 9999"
+                style="width:10%">
+            <br>
+            <br>
+            <label for="cidade"><b>Cidade:</b></label>
+            <input type="text" required id="cidade" placeholder="Digite a cidade">
+            <br><br>
+            <label for="estado"><b>Estado:</b></label>
+            <select id="estado" required>
+                <option value="estado">Selecione o estado</option>
+                <option value="ac">Acre</option>
+                <option value="al">Alagoas</option>
+                <option value="am">Amazonas</option>
+                <option value="ap">Amapá</option>
+                <option value="ba">Bahia</option>
+                <option value="ce">Ceará</option>
+                <option value="df">Distrito Federal</option>
+                <option value="es">Espírito Santo</option>
+                <option value="go">Goiás</option>
+                <option value="ma">Maranhão</option>
+                <option value="mt">Mato Grosso</option>
+                <option value="ms">Mato Grosso do Sul</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="pa">Pará</option>
+                <option value="pb">Paraíba</option>
+                <option value="pr">Paraná</option>
+                <option value="pe">Pernambuco</option>
+                <option value="pi">Piauí</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="rn">Rio Grande do Norte</option>
+                <option value="ro">Rondônia</option>
+                <option value="rs">Rio Grande do Sul</option>
+                <option value="rr">Roraima</option>
+                <option value="sc">Santa Catarina</option>
+                <option value="se">Sergipe</option>
+                <option value="sp">São Paulo</option>
+                <option value="to">Tocantins</option>
+            </select>
+        </fieldset>
+        <br>
+        <br>
+        <button type="submit"><b>Cadastrar</b></button>
+        <button type="reset"><b>Limpar</b></button>
+    </form>
+</body>
+
+</html>
