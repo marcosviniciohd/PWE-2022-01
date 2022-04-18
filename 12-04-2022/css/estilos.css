@@ -1,0 +1,176 @@
+body {
+  margin: 0px;
+  border-top: 10px solid #00124A;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  line-height: 1em;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 25px;
+}
+
+header p {
+  font-size: 17px;
+  color:red;
+  font-weight: bold;
+}
+
+header nav {
+  background-color: #538114;  
+}
+
+header ul {
+  width: 1000px;
+  list-style: none;
+  margin: auto;
+}
+
+header nav ul li {
+  display: inline-block;
+  width: 80px;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;  
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+header nav ul li a:hover {
+  color: red;
+}
+
+table td {
+  padding: 10px;
+}
+
+table {
+  width:1000px;
+  margin:auto;
+}
+
+table p {
+  line-height: 1em;
+}
+
+table {
+  vertical-align: text-top;
+}
+
+table tr:nth-child(2) {
+  background-color: white;
+}
+
+table tr:nth-child(3) {
+  background-color: #9B3038;
+  text-align: center;
+}
+
+section:nth-child(even) {
+  background-color: white;
+}
+
+section table h2 {
+  font-size: 18px;
+}
+
+section:nth-child(1) table h2 {
+  color: black;
+  margin: 0px;
+}
+
+section:nth-child(2) table h2 {
+  color: white;
+  margin: 0px;
+  padding: 5px;
+}
+
+section table p, li, summary {
+  text-align: justify;
+  line-height: 1.6em;
+  font-size: 14px;
+}
+
+section:nth-child(2) table tr:nth-child(1) td {
+  text-align: center;
+  background-color: #00134A;
+  color:white;
+  padding:15px;
+}
+
+summary {
+  cursor: pointer;
+  color: blue;
+}
+
+section:nth-child(2) {
+  background-color: #BFE38E;
+  padding: 10px 0px;
+}
+
+section:nth-child(2) table {
+  border: 0px;
+}
+
+section:nth-child(2) a {
+  color:white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+footer {
+  background-color: #00134A;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+footer legend, label {
+
+  padding-right: 10px;
+}
+
+footer input[type="text"], input[type="tel"], input[type="email"] {
+  width: 170px;
+  padding:5px;
+}
+
+footer input[type="button"] {
+  width: 100px;
+  border: 0px;
+  border-radius: 3px;
+  padding: 7px;
+}
+
+footer input[type="button"]:hover {
+  background-color: #9faa91;
+  color: white;
+}
+
+footer fieldset {
+  width: 635px;
+  padding:15px;
+  border: 1px solid white;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+}
+
+footer table td {
+  background-color: #00134A;
+}

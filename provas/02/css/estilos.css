@@ -1,0 +1,114 @@
+body {
+    font-family: arial;
+    box-sizing: border-box;
+    margin: 0px;
+}
+header {
+    text-align: right;
+}
+header h1, header h2 {
+    padding: 15px;
+    margin: 0px;
+}
+header h1 {
+    color: white;
+    font-size: 35px;
+    background-color: black;
+}
+header h2 {
+    color: white;
+    font-size: 20px;
+    background-color: gray;
+}
+
+main h2 {
+    color: black;
+    transition: all 0.5s;
+}
+
+main h2:hover {
+    letter-spacing: 5px;
+}
+
+a:link, a:visited {
+    color:blue;
+}
+
+nav ul {
+    padding:0px;
+}
+nav ul li {
+    list-style: none;
+    padding:10px;
+    text-align: center;
+}
+nav ul li a:link, nav ul li a:visited {
+    text-decoration: none;
+    color: #003300;
+    font-weight: bold;
+    display: inline-block;
+}
+
+header nav ul {
+    margin:0px;
+    display: flex;
+    justify-content:center;
+    background-color:rgb(123, 123, 250);
+}
+header nav ul li {
+    display: inline-block;
+}
+header nav ul li a:link, header nav ul li a:visited {
+    color: white;
+    padding: 0px 30px;
+    font-weight: normal;
+}
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main nav ul li a:hover {
+    color: crimson;
+}
+
+table {
+    margin:auto;
+}
+
+table td {
+    vertical-align: top;
+    padding:20px;
+}
+
+table td:nth-child(1) {
+    background-color: #FFE8E8;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+footer p {
+    color: white;
+}
+footer a:link, footer a:visited {
+    color: lightblue !important;
+}
+
+img {
+    display:block;
+    width:765px;
+    margin:auto;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+
+main ul li {
+    line-height: 1.5em;
+}
+
+main p {
+    line-height: 1.5em;
+    text-align: justify;
+}
