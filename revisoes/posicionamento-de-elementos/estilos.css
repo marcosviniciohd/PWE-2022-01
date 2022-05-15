@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    width: 100px;
+    position: fixed;
+    top: 100px;
+    border: 1px solid black;
+}
+ul li{
+    margin: 10px 0px;
+    margin-left: 0px;
+    position: relative;
+    left: -80px;
+    transition: all 0.5s;
+    border-right: 10px solid black;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid red;
+}
