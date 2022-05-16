@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@1,900&display=swap');
+
+* {
+    margin: 0px;
+}
+
+header ul{
+    padding: 0px;
+    text-align: center;
+    background-color: black;
+}
+
+header ul li{
+    list-style: none;
+    display:inline-block;
+    
+}
+
+header a:link, header a:visited{
+    text-decoration: none;
+    display:inline-block;
+    color: white;
+    padding: 15px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+header a:hover{
+    background-color: white;
+    color: black;
+}
