@@ -4,6 +4,10 @@
     margin: 0px;
 }
 
+header {
+    font-family: 'Roboto', sans-serif;  
+}
+
 header ul{
     padding: 0px;
     text-align: center;
@@ -21,9 +25,53 @@ header a:link, header a:visited{
     display:inline-block;
     color: white;
     padding: 15px 20px;
-    font-family: 'Roboto', sans-serif;
 }
 header a:hover{
     background-color: white;
     color: black;
+}
+
+header img{
+    width: 100%;
+}
+
+header h1, header h2{
+    text-align: center;  
+    padding: 10px;
+}
+header h1{
+    font-size: 50px;
+    transition: all 0.5s;
+}
+
+header h1:hover{
+    letter-spacing: 5px;
+    
+}
+
+header h2{
+    font-size: 20px;
+    color: darkred;
+}
+main section p{
+    padding: 20px;
+    line-height: 1.5em;
+}
+main section:nth-child(odd){
+    background-color: rgb(198, 196, 196);
+}
+
+main section a:link, main section a:visited{
+    color: blue;
+    text-decoration: none;
+    
+}
+
+footer{
+    background-color: black;
+    padding: 40px 10px;
+}
+footer p{
+    color: white;
+    text-align: center;
 }
