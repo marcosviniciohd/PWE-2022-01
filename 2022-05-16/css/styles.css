@@ -2,6 +2,7 @@
 
 * {
     margin: 0px;
+    box-sizing: border-box;
 }
 
 header {
@@ -66,6 +67,12 @@ main section a:link, main section a:visited{
     text-decoration: none;
     
 }
+main section ul li{
+    margin-bottom: 5px;
+}
+main section ul{
+    margin-bottom: 20px;
+}
 
 footer{
     background-color: black;
@@ -74,4 +81,20 @@ footer{
 footer p{
     color: white;
     text-align: center;
+}
+
+.descricaoLista{
+    color: red;
+    font-weight: bold;
+}
+div[class^="caixa"]{
+    width: 33.33%;
+    height:200px;
+    float: left;
+    text-align: center;
+}
+.boxGeral{
+    width: 1000px;
+    margin: auto;
+    overflow: auto;
 }
