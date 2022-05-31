@@ -1,0 +1,81 @@
+body{
+    font-family: Verdana, Arial, Helvetica, sans;
+}
+header ul{
+    list-style: none;
+    text-align: right;
+    background-color: rgb(255, 106, 51);
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a:link, header ul li a:visited{
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+}
+header ul li a:hover{
+    background-color: white;
+    color: orangered;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.boxPrincipal{
+    background-color: rgb(2, 2, 114);
+    padding: 25px;
+}
+.boxApresentacao{
+    background-color: white;
+    border: 4px solid orangered;
+    border-radius: 30px;
+    text-align: center;
+    padding: 25px;
+}
+.boxApresentacao p{
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}
+.boxApresentacao img{
+    width: 80%;
+    margin: 10px 0px;
+}
+.sectionProdutos p{
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 14px;
+    padding: 15px;
+    margin: 10px;
+}
+.sectionProdutos img{
+    padding-top: 25px;
+}
+.sectionProdutos summary{
+    text-align: left;
+    color: orangered;
+    font-weight: bold;
+}
+.sectionProdutos details{
+    padding-bottom: 60px;
+}
+.sectionTextoProdutos h2{
+    padding: 15px 0px;
+}
+.sectionTextoProdutos p{
+    padding: 15px 0px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+footer{
+    background-color: rgb(160, 48, 7);
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    height: 50px;
+    padding-top: 15px;
+    margin: 15px 0px;
+}
