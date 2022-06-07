@@ -36,7 +36,7 @@ header h2{
     color: red;
     font-size: 16px;
 }
-main section:nth-child(odd){
+main section:nth-child(1){
     background-color:rgb(199, 197, 197);
 }
 .tecnologias{
@@ -53,7 +53,28 @@ main section:nth-child(odd){
     padding: 30px;
 }
 .tecnologias p{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.redesSociais{
+    text-align: center;
+}
+.redesSociais img{
+    width: 100%;
+    padding: 20px;
+}
+.redesSociais p{
     text-align: justify;
+    margin-bottom: 20px;
+}
+.redesSociais > div > div{
+    padding: 20px;
+}
+.visibility{
+    display:none;
 }
 /* Tablet */
 @media screen and (min-width: 600px) {
@@ -81,6 +102,7 @@ main section:nth-child(odd){
         content: url('../img/topoPC.jpg');
         width: 100%;
         display: block;
+        text-align: center;
     }
     header h1{
         font-size: 50px;
@@ -90,7 +112,15 @@ main section:nth-child(odd){
         color: red;
         font-size: 26px;
     }
-    .tecnologias{
-        display: row;
+    .container{
+        flex-direction: row;
+        width: 1200px;
+        margin: auto;
+    }
+    .visibility{
+        display: block;
+    }
+    .reverse{
+        flex-direction: row-reverse;
     }
 }
