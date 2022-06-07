@@ -1,0 +1,96 @@
+body{
+    font-family: 'Roboto', sans, sans-serif;
+}
+header ul{
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    background-color: black;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a:link, header ul li a:visited{
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+}
+header ul li a:hover{
+    background-color: white;
+    color: black;
+}
+header img{
+    content: url('../img/topoSmart.jpg');
+    width: 100%;
+    display: block;
+}
+header h1, header h2{
+    text-align: center;
+}
+header h1{
+    font-size: 22px;
+    margin-top: 20px;
+}
+header h2{
+    color: red;
+    font-size: 16px;
+}
+main section:nth-child(odd){
+    background-color:rgb(199, 197, 197);
+}
+.tecnologias{
+    text-align: center;
+}
+.tecnologias h2{
+    color: green;
+    padding: 15px;
+}
+.tecnologias img{
+    width: 80px;
+}
+.tecnologias > div > div{
+    padding: 30px;
+}
+.tecnologias p{
+    text-align: justify;
+}
+/* Tablet */
+@media screen and (min-width: 600px) {
+    header ul{
+        text-align: right;
+    }
+    header img{
+        content: url('../img/topoTablet.jpg');
+        width: 100%;
+        display: block;
+    }
+    header h1{
+        font-size: 38px;
+
+    }
+    header h2{
+        color: red;
+        font-size: 22px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1080px) {
+    header img{
+        content: url('../img/topoPC.jpg');
+        width: 100%;
+        display: block;
+    }
+    header h1{
+        font-size: 50px;
+
+    }
+    header h2{
+        color: red;
+        font-size: 26px;
+    }
+    .tecnologias{
+        display: row;
+    }
+}
